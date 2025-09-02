@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <!-- & Title of the Webpage -->
+        <title>Restaurant Menu - Final Project</title>
+        <!-- & Link the CSS Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="style.css"
+        />
+    </head>
+    <body>
+        <!-- & Header
+        ~ Space near the top of the webpage that will have information like the website logo, title of the webpage, a search bar, links to other parts of the site, and a button to sign into the webpage
+    -->
+        <header>
+            <!-- ~ Created another div called heading to just flex the img's and h1 for the header section of the webpage -->
+            <heading>
+                <img
+                    src="img/a-heading/1-matcha-and-cherry-blossom.png"
+                    alt="Cherry Blossom Cup with Green Tea"
+                    class="header-img-1"
+                />
+                <h1>EtariaLee's Tea House</h1>
+                <img
+                    src="img/a-heading/2-matcha-and-snacks.png"
+                    alt="Matcha and Tea Snacks"
+                    class="header-img-2"
+                />
+            </heading>
+
+            <!-- & Nav Bar
+            ~ Links that will navigate to the other parts of the webpage. There is usually an ordered list and/or an unordered list
+            -->
+            <nav>
+                <ul class="nav-bar">
+                    <li class="nav-list">
+                        <a href="#about">🌸 About 🌸</a>
+                    </li>
+
+                    <li class="nav-list">
+                        <a href="#menu">🍵 Menu 🍵</a>
+                    </li>
+
+                    <li class="nav-list">
+                        <a href="#order-form">🌸 Make Your Order 🌸</a>
+                    </li>
+
+                    <li class="nav-list">
+                        <a href="#contact">🍵 Contact Us 🍵</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- & Main
+        ~ This is where the main information of the webpage will go
+        ~ i.e. About the tea house, the menu, and the order form
+        -->
+        <main>
+            <!-- & Sections
+            ~ The <section> element groups together pieces of similar informations
+            & This section will be about the story of EtariaLee's Tea House
+            -->
+            <section class="section-about">
+                <br>
+                <!-- & This id is used as link from the nav-bar to this section of the page -->
+                <h2 id="about">About</h2>
+                <!--& <hr> element
+                ~ Then add the <hr> element -> the horizontal element line right after each <br> element
+                -->
+                <hr class="section-hr" />
+
+                <article>
+                    <h3>
+                        🍵 Where Tea brings you comfort and sweets bring you joy
+                        🌸
+                    </h3>
+                    <p>
+                        at EtariaLee's Tea House, we want to bring the relaxation and warmth of blissful cup of tea while being filled with sweet joy from our artistic asian fusin sweet treats.Each sip and bite will bring you a peaceful zen that is encompassed by our Japandi concept.Hoping you will want to keep coming back to experience it time and time again. We hope to share this slice of peace and tranquility of our Tea House.
+                    </p>
+                </article>
+                <br>
+                <hr>
+                <!-- & <br> element & <hr> element
+                ~ this will shift the text down on the webpage and add a dividing line
+                ~ Adding a <br> element -> break element after each article element
+                ~ Then add the <hr> element -> the horizontal element line right after each <br> element
+                -->
+
+            <!-- & This section is will tell the options available on the Menu  -->
+            </section>
+
+            <section>
+                <br>
+                <!-- & This id is used as link from the nav-bar to this section of the page -->
+                <h2 id="menu">Menu</h2>
+                <hr class="section-hr" />
+
+                <!-- & Cakes -->
+                <article class="menu-container">
+                    <figure class="menu-fig">
+                        <img
+                            src="img/b-menu-items/1-pavillion-cherry-blossom.png"
+                            alt="Pavillion Cherry Blossom Cake"
+                            class="img-cake"
+                        >
+                    </figure>
+                    <menu-options class="menu-items">
+                        <!-- ~ describes what the list of items are -->
+                        <ul class="menu-list">
+                            <li>🍵</li>
+                            <li>C</li>
+                            <li>A</li>
+                            <li>K</li>
+                            <li>E</li>
+                            <li>S</li>
+                            <li>🌸</li>
+                        </ul>
+                        <hr class="menu-vertical-divider">
+                        <!-- ~ the menu items -->
+                        <ul class="menu-list-b">
+                            <li>Pavillion cake engulfed in a forest of Cherry Blossoms</li>
+                            <li>Cherry Blossom Gradient</li>
+                            <li>Cherry Blossom Cherry Jelly</li>
+                            <li>Temple within a Cherry Blossom Forest</li>
+                            <li>Mini 3 layer, Cherry Blossom, Vanilla Cream, & Matcha</li>
+                            <li>Sushi Bento Box</li>
+                            <li>Sushi Bamboo Forest</li>
+                            <li>Ramen Noodles</li>
+                        </ul>
+                        <!-- ~ prices for each menu item -->
+                        <ul class="menu-list">
+                            <li>65</li>
+                            <li>35</li>
+                            <li>15</li>
+                            <li>45</li>
+                            <li>15</li>
+                            <li>65</li>
+                            <li>35</li>
+                        </ul>
+                    </menu-options>
+                </article>
+
+                <!-- & Cake Slices & Tarts -->
+                <article class="menu-container">
+                    <figure class="menu-fig">
+                        <img
+                            src="img/b-menu-items/2-matcha-cherry-blossom-jelly.png"
+                            alt="Matcha Cherry Blossom Jello Cake Slices" class="img-cake-slices-tart"
+                        >
+                    </figure>
+                    <menu-options class="menu-items">
+                        <!-- ~ describes what the list of items are -->
+                        <ul class="menu-list">
+                            <li>🍵</li>
+                            <li>C</li>
+                            <li>A</li>
+                            <li>K</li>
+                            <li>E</li>
+                            <li>🌸</li>
+                        </ul>
+                        <ul class="menu-list">
+                            <li>🍵</li>
+                            <li>S</li>
+                            <li>L</li>
+                            <li>I</li>
+                            <li>C</li>
+                            <li>E</li>
+                            <li>S</li>
+                            <li>🌸</li>
+                        </ul>
+                        <ul class="menu-list">
+                            <li>🍵</li>
+                            <li>A</li>
+                            <li>N</li>
+                            <li>D</li>
+                            <li>🌸</li>
+                        </ul>
+                        <ul class="menu-list">
+                            <li>🍵</li>
+                            <li>T</li>
+                            <li>A</li>
+                            <li>R</li>
+                            <li>T</li>
+                            <li>S</li>
+                            <li>🌸</li>
+                        </ul>
+                        <hr class="menu-vertical-divider">
+                        <!-- ~ the menu items -->
+                        <ul class="menu-list-b">
+                            <li>Matcha Cherry Blossom Jelly Slice</li>
+                            <li>Peach Tart</li>
+                            <li>Mango Tart</li>
+                            <li>Matcha Roll</li>
+                            <li>Cherry Blossom Crepe Slice</li>
+                            <li>Cherry Blossom Pyramid Slice</li>
+                            <li>Egg Tart</li>
+                            <li>Lemon Tangerine Tart</li>
+                        </ul>
+                        <!-- ~ prices for each menu item -->
+                        <ul class="menu-list">
+                            <li>6</li>
+                            <li>8</li>
+                            <li>7</li>
+                            <li>4</li>
+                            <li>6</li>
+                            <li>6</li>
+                            <li>4</li>
+                            <li>5</li>
+                        </ul>
+                    </menu-options>
+                </article>
+
+                <!-- & Sweets, Pudding, & Jelly -->
+                <article class="menu-container">
+                    <figure class="menu-fig">
+                        <img
+                            src="img/b-menu-items/3-cherry-blossom-jelly.png" alt="Cherry Blossom Jelly" class="img-sweets-pudding-jelly"
+                        >
+                    </figure>
+                    <menu-options class="menu-items">
+                        <!-- ~ describes what the list of items are -->
+                        <ul class="menu-list">
+                            <li>🍵</li>
+                            <li>S</li>
+                            <li>W</li>
+                            <li>E</li>
+                            <li>E</li>
+                            <li>T</li>
+                            <li>S</li>
+                            <li>🌸</li>
+                        </ul>
+                        <ul class="menu-list">
+                            <li>🍵</li>
+                            <li>P</li>
+                            <li>U</li>
+                            <li>D</li>
+                            <li>D</li>
+                            <li>I</li>
+                            <li>N</li>
+                            <li>G</li>
+                            <li>🌸</li>
+                        </ul>
+                        <ul class="menu-list">
+                            <li>🍵</li>
+                            <li>A</li>
+                            <li>N</li>
+                            <li>D</li>
+                            <li>🌸</li>
+                        </ul>
+                        <ul class="menu-list">
+                            <li>🍵</li>
+                            <li>J</li>
+                            <li>E</li>
+                            <li>L</li>
+                            <li>L</li>
+                            <li>Y</li>
+                            <li>🌸</li>
+                        </ul>
+                        <hr class="menu-vertical-divider">
+                        <!-- ~ the menu items -->
+                        <ul class="menu-list-b">
+                            <li>Tanghulu</li>
+                            <li>Floral Mochi Roll</li>
+                            <li>Sakura Matcha Whipped Taco</li>
+                            <li>Dango</li>
+                            <li>Sakura Matcha Mousse</li>
+                            <li>Sakura Pudding with Jelly</li>
+                            <li>Green Tea Mochi</li>
+                            <li>Matcha Pudding</li>
+                        </ul>
+                        <!-- ~ prices for each menu item -->
+                        <ul class="menu-list">
+                            <li>8</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>6</li>
+                            <li>6</li>
+                            <li>8</li>
+                            <li>7</li>
+                            <li>7</li>
+                        </ul>
+                    </menu-options>
+                </article>
+
+                <!-- & Tea's -->
+                <article class="menu-container">
+                    <figure class="menu-fig">
+                        <img
+                            src="img/b-menu-items/4-green-tea.png"
+                            alt="Green Tea"
+                            class="img-teas"
+                        >
+                    </figure>
+                    <menu-options class="menu-items">
+                        <!-- ~ describes what the list of items are -->
+                        <ul class="menu-list">
+                            <li>🍵</li>
+                            <li>T</li>
+                            <li>E</li>
+                            <li>A</li>
+                            <li>S</li>
+                            <li>🌸</li>
+                        </ul>
+                        <hr class="menu-vertical-divider">
+                        <!-- ~ the menu items -->
+                        <ul class="menu-list-b">
+                            <li>Cherry Blossom Tea</li>
+                            <li>Butterfly Pea Moon Milk Tea</li>
+                            <li>Cherry Blossom Green Tea</li>
+                            <li>Wedding Green Tea</li>
+                            <li>Peach Lemonade Tea</li>
+                            <li>Rose Milk Black Tea</li>
+                            <li>Taiping Houkui Tea</li>
+                            <li>Hibiscus Tea</li>
+                            <li>Wisteria Milk Tea</li>
+                            <li>Seasonal Teas | Tea Combo/Blend</li>
+                        </ul>
+                        <!-- ~ prices for each menu item -->
+                        <ul class="menu-list">
+                            <li>5</li>
+                            <li>8</li>
+                            <li>5</li>
+                            <li>5</li>
+                            <li>5</li>
+                            <li>8</li>
+                            <li>5</li>
+                            <li>5</li>
+                            <li>8</li>
+                            <li>10</li>
+                        </ul>
+                    </menu-options>
+                </article>
+
+                <!-- & Details about the menu items -->
+                <p>
+                    <ul class="menu-details">
+                        <li>
+                            Tanghulu has options of grapes, stawberry, blueberry, orange, etc..
+                        </li>
+                        <li>
+                            Dango comes with 3 pieces. The options for these toppings are red bean, strawberry, mango frosting, white bean, etc..
+                        </li>
+                        <li>
+                            Tea has the option of Hot or Cold. Can be combined tea leaves. As well as, can change tea to a milk tea.
+                        </li>
+                    </ul>
+                </p>
+            </section>
+            <br>
+            <hr>
+
+            <!-- & These sections will have a Form where the order will be made & the customer can contact the Tea House
+            ~ The user will enter information, user clicks submit button, then something happens
+            ~ input element -> how the user will enter
+            -->
+            <section>
+                <br>
+                <!-- & This id is used as link from the nav-bar to this section of the page -->
+                <h2 id="order-form">Make Your Order</h2>
+                <hr class="section-hr" />
+                <form action="">
+                    <br>
+                    <!-- ~ The following forms will ask the customer for the number of their desired item, the ability to check whether they are having cakes, cake slices & treats, sweets pudding & jelly, and/or tea. will have the ability to make special requets for their order aand then to submit their order -->
+                    <!-- & Cake Order Form -->
+                    <article class="order-container">
+                        <figure class="order-fig">
+                            <img
+                                src="img/c-order-form-imgs/1-flower.png" alt="Cherry Blossom Blueberry and Lavender Cake" class="img-cake-form"
+                            >
+                        </figure>
+                        <order-options class="order-items">
+                            <!-- ~ describes what the order items are -->
+                            <ul class="order-list">
+                                <li>🍵</li>
+                                <li>C</li>
+                                <li>A</li>
+                                <li>K</li>
+                                <li>E</li>
+                                <li>S</li>
+                                <li>🌸</li>
+                            </ul>
+                            <hr class="menu-vertical-divider">
+                            <cake-form>
+                                <!-- ~ radio input -> only 1 can be selected
+                                    ~ yes or no to ordering a cake
+                                -->
+                                <label>Will you order a Cake?</label>
+                                <br>
+                                <input
+                                    type="radio"
+                                    name="option"
+                                    required
+                                >
+                                <label for="">Yes</label>
+                                <input
+                                    type="radio"
+                                    name="option"
+                                >
+                                <label for="">No</label>
+                                <br>
+                                <br>
+                                <!-- ~ How many cakes will the customer order? -->
+                                 <label for="">How many Cake's will be ordered?</label>
+                                 <br>
+                                <input type="number" name="" id="" min="0">
+                                <br>
+                                <br>
+                                <!-- ~ text input -> plain textbox in the form -->
+                                <label>Which Cake?</label>
+                                <br>
+                                <input
+                                    type="text"
+                                    placeholder="Please enter desired Cake?"
+                                >
+                                <br>
+                                <br>
+                                <!-- ~ checkbox input -> it is a box checked off and multiple can be checked unlike the radio input that can one select one or the other
+                                    ~ Small, Medium, and/or Large Caeke -->
+                                <label>Small, Medium, and/or Large Cake?</label>
+                                <br>
+                                <input
+                                    type="checkbox"
+                                >
+                                <label for="">Small</label>
+                                <input
+                                    type="checkbox"
+                                >
+                                <label for="">Medium</label>
+                                <input
+                                    type="checkbox"
+                                >
+                                <label for="">Large</label>
+                                <br>
+                                <br>
+                                <!-- ~ textarea element -> multi-line plain text input -->
+                                <label>Cake Details: </label>
+                                <br>
+                                <textarea
+                                    class="order-details"
+                                    cols="50"
+                                    placeholder="Please enter in detail what designs desired on the Cake. i.e. Whether to add a name, flavor of the cake, how many tiers, etc."
+                                ></textarea>
+                            </cake-form>
+                        </order-options>
+                    </article>
+                    <!-- & Cake Slices & Tarts Order Form -->
+                    <article class="order-container">
+                        <figure class="order-fig">
+                            <img
+                                src="img/c-order-form-imgs/2-matcha-slice.png" alt="Matcha cake slice" class="img-cake-slices-tart-form"
+                            >
+                            <img
+                                src="img/c-order-form-imgs/2a-cherry-blossom-slice.png"
+                                alt="Cherry Blossom Cake Slice" class="img-cake-slices-tart-form"
+                            >
+                        </figure>
+                        <order-options class="order-items">
+                            <!-- ~ describes what the order items are -->
+                            <ul class="order-list">
+                                <li>🍵</li>
+                                <li>C</li>
+                                <li>A</li>
+                                <li>K</li>
+                                <li>E</li>
+                                <li>🌸</li>
+                            </ul>
+                            <ul class="order-list">
+                                <li>🍵</li>
+                                <li>S</li>
+                                <li>L</li>
+                                <li>I</li>
+                                <li>C</li>
+                                <li>E</li>
+                                <li>S</li>
+                                <li>🌸</li>
+                            </ul>
+                            <ul class="order-list">
+                                <li>🍵</li>
+                                <li>A</li>
+                                <li>N</li>
+                                <li>D</li>
+                                <li>🌸</li>
+                            </ul>
+                            <ul class="order-list">
+                                <li>🍵</li>
+                                <li>T</li>
+                                <li>A</li>
+                                <li>R</li>
+                                <li>T</li>
+                                <li>S</li>
+                                <li>🌸</li>
+                            </ul>
+                            <hr class="menu-vertical-divider">
+                            <!-- ~ radio input -> only 1 can be selected
+                                ~ yes or no to a cake slice or tart
+                            -->
+                            <cake-slice-tart-form>
+                                <label>Will you order a Cake Slice or a Tart?</label>
+                                <br>
+                                <input
+                                    type="radio"
+                                    name="option"
+                                    required
+                                >
+                                <label for="">Yes</label>
+                                <input
+                                    type="radio"
+                                    name="option"
+                                >
+                                <label for="">No</label>
+                                <br>
+                                <br>
+                                <!-- ~ How many cake slices or tarts will the customer order? -->
+                                 <label for="">How many Cake Slices or Tarts will be ordered?</label>
+                                 <br>
+                                <input type="number" name="" id="" min="0">
+                                <br>
+                                <br>
+                                <!-- ~  text input -> plain textbox in the form -->
+                                <label>Which Cake Slice or Tart?</label>
+                                <br>
+                                <input
+                                    type="text"
+                                    placeholder="Please enter desired Cake Slice or Tart?"
+                                >
+                                <br>
+                                <br>
+                                <!-- ~ textarea element -> multi-line plain text input -->
+                                <label>Cake Slices or Tarts Details: </label>
+                                <br>
+                                <textarea
+                                    class="order-details"
+                                    cols="50"
+                                    placeholder="Please enter in detail how you would like your desired cake slice or tart. i.e. Whether you would like to have extra toppings, which toppings, etc."
+                                ></textarea>
+                            </cake-slice-tart-form>
+                        </order-options>
+                    </article>
+                    <!-- & Sweets Pudding & Jelly Order Form -->
+                    <article class="order-container">
+                        <figure class="order-fig">
+                            <img
+                                src="img/c-order-form-imgs/3-sakura-matcha-mousse.png"
+                                alt="Cherry Blossom Matcha Puffing"
+                                class="img-sweets-pudding-jelly-form"
+                            >
+                            <img
+                                src="img/c-order-form-imgs/3a-dango-strawberry-melon-white-bean.png"
+                                alt="Dango"
+                                class="img-sweets-pudding-jelly-form"
+                            >
+                        </figure>
+                        <order-options class="order-items">
+                            <!-- ~ describes what the list of items are -->
+                            <ul class="order-list">
+                                <li>🍵</li>
+                                <li>S</li>
+                                <li>W</li>
+                                <li>E</li>
+                                <li>E</li>
+                                <li>T</li>
+                                <li>S</li>
+                                <li>🌸</li>
+                            </ul>
+                            <ul class="order-list">
+                                <li>🍵</li>
+                                <li>P</li>
+                                <li>U</li>
+                                <li>D</li>
+                                <li>D</li>
+                                <li>I</li>
+                                <li>N</li>
+                                <li>G</li>
+                                <li>🌸</li>
+                            </ul>
+                            <ul class="order-list">
+                                <li>🍵</li>
+                                <li>A</li>
+                                <li>N</li>
+                                <li>D</li>
+                                <li>🌸</li>
+                            </ul>
+                            <ul class="order-list">
+                                <li>🍵</li>
+                                <li>J</li>
+                                <li>E</li>
+                                <li>L</li>
+                                <li>L</li>
+                                <li>Y</li>
+                                <li>🌸</li>
+                            </ul>
+                            <hr class="menu-vertical-divider">
+                            <!-- ~ radio input -> only 1 can be selected
+                                ~ yes or no Sweets, Pudding, or Jelly
+                            -->
+                            <sweets-pudding-jelly-form>
+                                <label>
+                                    Will you order any Sweets, Pudding, or Jelly?
+                                </label>
+                                <br>
+                                <input
+                                    type="radio"
+                                    name="option"
+                                    required
+                                >
+                                <label for="">Yes</label>
+                                <input
+                                    type="radio"
+                                    name="option"
+                                >
+                                <label for="">No</label>
+                                <br>
+                                <br>
+                                <!-- ~ How many Sweets, Pudding, or Jelly will the customer order? -->
+                                 <label for="">
+                                    How many Sweets, Pudding, or Jelly will be ordered?
+                                 </label>
+                                 <br>
+                                <input type="number" name="" id="" min="0">
+                                <br>
+                                <br>
+                                <!-- ~  text input -> plain textbox in the form -->
+                                <label>Which tea?</label>
+                                <br>
+                                <input
+                                    type="text"
+                                    placeholder="Please enter desired Sweets, Pudding, or Jelly?"
+                                >
+                                <br>
+                                <br>
+                                <!-- ~ textarea element -> multi-line plain text input -->
+                                <label>Sweets, Pudding, or Jelly Details: </label>
+                                <br>
+                                <textarea
+                                    class="order-details"
+                                    cols="50"
+                                    placeholder="Please enter in detail how you desire your Sweets, Pudding, or Jelly made. i.e. Which flavor, which filling inside the dango, which flavor of the pudding, extra toppings, etc."
+                                ></textarea>
+                            </sweets-pudding-jelly-form>
+                        </order-options>
+                    </article>
+                    <!-- & Tea Order Form -->
+                    <article class="order-container">
+                        <figure class="order-fig">
+                            <img
+                                src="img/c-order-form-imgs/4-cherry-blossom-tea.png"
+                                alt="Cherry Blossom Tea"
+                                class="img-tea-form"
+                            >
+                            <img
+                                src="img/c-order-form-imgs/4a-cherry-blososm-milk-tea.png"
+                                alt="Cherry Blossom Miilk Tea"
+                                class="img-tea-form"
+                            >
+                        </figure>
+                        <order-options class="order-items">
+                            <!-- ~ describes what the list of items are -->
+                            <ul class="order-list">
+                                <li>🍵</li>
+                                <li>T</li>
+                                <li>E</li>
+                                <li>A</li>
+                                <li>S</li>
+                                <li>🌸</li>
+                            </ul>
+                            <hr class="menu-vertical-divider">
+                            <!-- ~ radio input -> only 1 can be selected
+                                ~ yes or no to ordering tea
+                            -->
+                            <tea-form>
+                                <label>Will you order Tea?</label>
+                                <br>
+                                <input
+                                    type="radio"
+                                    name="option"
+                                    required
+                                >
+                                <label for="">Yes</label>
+                                <input
+                                    type="radio"
+                                    name="option"
+                                >
+                                <label for="">No</label>
+                                <br>
+                                <br>
+                                <!-- ~ How many teas will the customer order? -->
+                                 <label for="">How many Tea's will be ordered?</label>
+                                <br>
+                                <input type="number" name="" id="" min="0">
+                                <br>
+                                <br>
+                                <!-- ~  text input -> plain textbox in the form -->
+                                <label>Which tea?</label>
+                                <input
+                                    type="text"
+                                    placeholder="Please enter desired Tea?"
+                                >
+                                <br>
+                                <br>
+                                <!-- ~ radio input -> Hot or Cold Tea -->
+                                <label>Hot or Cold?</label>
+                                <input
+                                    type="radio"
+                                    name="option"
+                                >
+                                <label for="">Yes</label>
+                                <input
+                                    type="radio"
+                                    name="option"
+                                >
+                                <label for="">No</label>
+                                <br>
+                                <br>
+                                <!-- ~ textarea element -> multi-line plain text input -->
+                                <label>Tea Details: </label>
+                                <br>
+                                <textarea
+                                    class="order-details"
+                                    cols="50"
+                                    placeholder="Please enter in detail how you desire your tea made. i.e. Which sweetener and how much, if to turn into a milk tea, if want to combine teas or seasonal blends, etc."
+                                ></textarea>
+                            </tea-form>
+                        </order-options>
+                    </article>
+                    <br>
+                <!-- & Submit the Order Form
+                    ~ input submit will be a button that submits the form
+                    ~ the form will not submit if the required information is not entered
+                -->
+                    <input type="submit" value="🍵 Please Submit the Order 🍵">
+                </form>
+            </section>
+            <br>
+            <br>
+            <hr>
+
+            <!-- & This section will be the contact us section -->
+            <section>
+                <br>
+                <!-- & This id is used as link from the nav-bar and the footer to this section of the page -->
+                <h2 id="contact">Contact Us</h2>
+                <hr class="section-hr" />
+                <br>
+
+                <!-- ~ This form will have a ask the customer to put in there email, telephone, and the customer can write in detail their inquiry -->
+                <form>
+                    <contact-section class="contact-container">
+                        <figure>
+                            <img src="img/d-contact-us-form-img/1-cherry-blossom-tori-gate-path.png" alt="Cherry Blossom Tori Gates" class="contact-fig-img">
+                        </figure>
+                        <contact-options class="contact-form">
+                            <!-- ~  text input -> plain textbox in the form
+                                ~ first name & last name
+                            -->
+                            <label for="">First Name:</label>
+                            <br>
+                            <input
+                                type="text"
+                                placeholder="Please enter your First Name"
+                            >
+                            <br>
+                            <br>
+                            <label for="">Last Name:</label>
+                            <br>
+                            <input
+                                type="text"
+                                placeholder="Please enter your Last Name"
+                            >
+                            <br>
+                            <br>
+                            <!-- ~ email input -> will tell the form to expect input of a typical email (including the @ ssymbol) -->
+                            <label for="">Email: </label>
+                            <br>
+                            <input
+                                type="email"
+                                placeholder="Please enter your Email: your@email.com"
+                            >
+                            <br>
+                            <br>
+                            <!-- ~ textarea element -> multi-line plain text input -->
+                            <label>Inquiry:</label>
+                            <br>
+                            <textarea
+                                class="contact-details"
+                                cols="50"
+                                placeholder="Please enter in detail any questions regarding ordering, cake designs, prices, etc.. i.e. Whether if a peanut-free custom cake is desired, etc."
+                            ></textarea>
+                        </contact-options>
+                    </contact-section>
+                    <br>
+                    <br>
+                    <input
+                        type="submit"
+                        value="🍵 We look forward to hearing from you 🍵"
+                    >
+                </form>
+            </section>
+        </main>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+
+        <!-- & Footer
+        ~ This is where important information will go that it is not suitable for the <header> element
+        ~ Links to extended sources
+            ~ in the <a> element -> usee the following for the href attribute
+                ~ href="/privacy"
+            ~ Also use the target attribute to open the link in a new tab
+                ~ target="_blank"
+        -->
+        <footer class="footer-container">
+            <p>Made with love by EtariaLee's Tea House</p>
+
+            <!-- ~ Links to the extended resources -->
+            <ul class="footer-list">
+
+                <li>
+                    <a href="#about">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#menu">
+                        Menu
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#order-form">
+                        Make Your Order
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact">
+                        Contact Us
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/terms" target="_blank">
+                        Terms
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/legal" target="_blank">
+                        Legal
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/privacy" target="_blank">
+                        Privacy
+                    </a>
+                </li>
+            </ul>
+            <!-- & &copy; -> is the symbol for copyright -->
+            <p>&copy; 2025 EtariaL33. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

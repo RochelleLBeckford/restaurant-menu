@@ -1,1 +1,89 @@
-# restaurant-menu
+# Practice: Creating a Webpage using the basics of HTML focusing on Semantic HTML Elements
+
+### Practice creating a Restaurant Menu Webpage using various Semantic HTML Elements and CSS styling
+
+-   [ ] Simple practice to gain a better understanding of the purpose of the following elelments and how they will bring to life my Restaurant Menu webpage along with CSS styling for targeted HTML Elements:
+    -  [ ]  The &lt;header&gt; element:
+        -  [ ]  Is used for the beginning of the webpage
+        -  [ ]  The &lt;heading&gt; element:
+            -  [ ]  Houses the title of the webpage along with Logos
+        -  [ ]  The &lt;img&gt; element:
+         -  [ ]  Is used for all the images on the webpage
+        -  [ ]  The &lt;nav&gt; element:
+            -  [ ]  This element tends to contain ordered lists, unordered lists, or even the both types of lists
+            -  [ ] These lists typically entails link with the #id-name of the desired section or part of the page would be in the "href" attribute of the &lt;a&gt; element for a list item
+            -  [ ]  The &lt;ul&gt; element:
+                -  [ ]  The unordered list element used to house the links to different sections of the webpage
+                -   [ ]   The &lt;list&gt; element:
+                    -   [ ]   Each list element will have a specific link to each section of the webpage
+                    -   [ ] &lt;a href="#about-section"&gt;About&lt;/a&gt;
+                    -   [ ] <a href="#about-section">About</a>
+                    -   [ ] When the user would click the About link they would then be directed to the About section of the page
+    -  [ ]  The &lt;main&gt; element:
+       -  [ ]   Is where the main information of the webpage will go
+       -  [ ]  The &lt;section&gt; element:
+          -  [ ]   This groups together pieces of similar information
+          -  [ ]   For instance:
+               -  [ ]  An About section, Menu section, Make Your Order section, and a Contact Us section
+        -  [ ] The &lt;article&gt; element:
+           -  [ ] Gives structure to each &lt;sections&gt; element
+            -  [ ] The Menu section is broken down in to more parts with each &lt;article&gt; element housing a specific section of the menu.
+            -  [ ] Information on which Cakes, Cake Slices & Tarts, Sweets Pudding & Jelly, lastly Teas are on the Menu
+       -  [ ]  The &lt;form&gt; element:
+           -  [ ]  Is where the user will enter the information, then clicks the submit button, then something happens
+           -  [ ]  There are forms to Make an Order and another form to Contact Us
+           -  [ ]  The &lt;label&gt; element:
+              -  [ ] Gives a label or name to the input so the user can knows what type of data is expected
+          -  [ ]  The &lt;input&gt; element:
+             -  [ ]   Is used for how the user will enter the information
+                -  [ ]  Placeholder attirbute -> gives a hint to the user of what is exepected to be entered and disappears once the user starts to enter data
+                -  [ ]  Min or Max attribute -> tells how high or low a number or the number of text characters that must be entered
+                -  [ ]  &lt;input type="radio"&gt;
+                      -  [ ]  Name attribute -> so that the user can only select one of the listed options
+                         -  [ ]  name="option"
+               -  [ ]  &lt;input type="checkbox"&gt;
+                  -  [ ]  A box that is ticked off to mark the input
+                  -  [ ]  Can check multiple items with this input type
+               -  [ ]  &lt;input type="number"&gt;
+                  -  [ ]  This would be when numbers are involved in forms
+                  -  [ ]  When the cursor hovers over the input an "up" and "down" arrow wll appear to increase or decrease the number
+               -  [ ]  &lt;input type="text"&gt;
+                  -  [ ]  Plain text box on the form
+                  -  [ ]  User can enter their Name
+               -  [ ]  &lt;input type="email"&gt;
+                  -  [ ]  Tells the user to expect a text input with the typical email syntax including an @ symbol
+                  -  [ ]  your@email.com
+               -  [ ]  &lt;input type="submit"&gt;
+                  -  [ ]  Appears as a button that Submits the form
+                  -  [ ]  By default the input will say Submit but can be changed using the value attribute
+                     -  [ ] value="Please Submit the Form"
+
+       -  [ ] The &lt;br&gt; element:
+           -  [ ] Creates a new line in your code and forces whatever comes after to start on a new line
+       -  [ ] The &lt;hr&gt; element:
+          -  [ ]  Adds a horizontal line or dividing line across the webpage
+       -  [ ] Used to seperate sections or different topics on a webpage
+       -  [ ] The &lt;figure&gt; element:
+          -  [ ]  Houses all graphics, images, or even a diagram on the webpage
+        -   [ ] The &lt;img&gt; element can be found within it as well
+    -   [ ]  The &lt;footer&gt; element:
+    -   [ ]  This element tends to finish off the webpage as it is located at the very bottom of the webpage and last items that will be seen
+    -   [ ] For instance:
+        -   [ ] A footnote of the webpage
+        -   [ ] Links to different sections of the webpage
+        -   [ ] A copyright symbol for copyright information
+        -   [ ] A link to external sources using the "href" attribute of the &lt;a&gt; element for the links in the list item to external sources
+            -   [ ] &lt;a href="/privacy"&gt;Privacy&lt;/a&gt;
+                -   [ ] use the target attribute tp open the link path in a new tab instead of the current page
+                -   [ ] <a href="/privacy" target="_blank">Privacy</a>
+                -   [ ] When the user would click one of these external links they would be redirected to a new page with the information
+
+---
+
+- [ ] Encompass:
+  - [ ] HTML
+  - [ ] CSS
+- [ ] HTML:
+  - [ ]  Will be the structure and skeleton of how the app will appear on the webpage
+- [ ] CSS:
+  - [ ] Encompass the style of the app and give it some flare
