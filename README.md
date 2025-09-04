@@ -87,3 +87,7 @@
   - [ ]  Will be the structure and skeleton of how the app will appear on the webpage
 - [ ] CSS:
   - [ ] Encompass the style of the app and give it some flair
+
+---
+- [ ] Link to this webpage:
+  - [ ] https://ro-restaurant-menu.netlify.app/
