@@ -90,4 +90,5 @@
 
 ---
 - [ ] Link to this webpage:
-  - [ ] https://ro-restaurant-menu.netlify.app/
+  - [ ] Link to visit the webpage: [ro-restaurant-menu](https://ro-restaurant-menu.netlify.app/){:target="_blank"}
+
