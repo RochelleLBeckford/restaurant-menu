@@ -89,6 +89,5 @@
   - [ ] Encompass the style of the app and give it some flair
 
 ---
-- [ ] Link to this webpage:
-  - [ ] Link to visit the webpage: [ro-restaurant-menu](https://ro-restaurant-menu.netlify.app/){:target="_blank"}
+- [ ] Link to visit the webpage: [ro-restaurant-menu](https://ro-restaurant-menu.netlify.app/){:target="_blank"}
 
