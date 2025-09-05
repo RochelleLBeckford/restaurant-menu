@@ -89,4 +89,4 @@
   - [ ] Encompass the style of the app and give it some flair
 
 ---
-- [ ] Link to visit the webpage: <a href="https://ro-restaurant-menu.netlify.app/" target="_blank">ro-restaurant-menu</a>
+- [ ] Link to visit the webpage: <a href="https://rlb-restaurant-menu.netlify.app/" target="_blank">rlb-restaurant-menu</a>
