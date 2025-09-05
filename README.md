@@ -76,7 +76,7 @@
             -   [ ] &lt;a href="/privacy"&gt;Privacy&lt;/a&gt;
                 -   [ ] Use the target attribute to open the link path in a new tab instead of the current page
                 -   [ ] <a href="/privacy" target="_blank">Privacy</a>
-                -   [ ] When the user clicks one of these external links, they would be redirected to a new page with the information
+                -   [ ] When the user clicks one of these external links, they would be redirected to a new page with the informat ion
 
 ---
 
