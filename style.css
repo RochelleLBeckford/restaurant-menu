@@ -1,6 +1,9 @@
 /* ~ Add this font for the entire webpage */
 * {
-    font-family: "Handlee";
+    /* font-family: "Handlee"; */
+    font-family: "Caviar Dreams";
+    font-style: italic;
+    letter-spacing: .1em;
 }
 
 body {
